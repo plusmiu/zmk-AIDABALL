@@ -70,7 +70,7 @@
 
 
     // //ユーザがinput-processorsを変更したい場合はここに書く
-    // &trackball_peripheral_listener {
+    // &trackball_listener {
     //     input-processors =
     //         <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,
     //         <&zip_temp_layer 3 500>;

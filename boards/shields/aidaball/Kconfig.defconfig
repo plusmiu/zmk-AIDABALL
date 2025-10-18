@@ -7,7 +7,7 @@ config ZMK_BLE
     default y
 
 config NFCT_PINS_AS_GPIOS
-    default n
+    default y
 
 config INPUT
     default y
