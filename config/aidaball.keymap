@@ -29,7 +29,7 @@
 
         default_layer {
             bindings = <
-                &lt 1 MB4_TAP   &mkp MB2
+                &lt 1 mb4_tap   &mkp MB2
                 &mkp MB1        &mkp MB3 
             >;
         };
