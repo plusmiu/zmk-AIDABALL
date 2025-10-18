@@ -15,22 +15,22 @@
 };
 
 / {
-    behaviors {
-        mb4_tap: mb4_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MB4_TAP";
-            bindings = <&mkp MB4>;
-            tapping-term-ms = <200>;
-        };
-    };
+    //behaviors {
+    //    mb4_tap: mb4_tap {
+    //        compatible = "zmk,behavior-hold-tap";
+    //        label = "MB4_TAP";
+    //        bindings = <&mkp MB4>;
+    //        tapping-term-ms = <200>;
+    //    };
+    //};
     
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &lt 1 mb4_tap   &mkp MB2
-                &mkp MB1        &mkp MB3 
+                &lt 1 MB4       &mkp MB2
+                &mkp MB1        &mkp MB4
             >;
         };
 
