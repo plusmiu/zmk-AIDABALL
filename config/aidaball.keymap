@@ -22,7 +22,7 @@
         default_layer {
             bindings = <
                 &lt 1 MB4   &mkp MB2
-                &mkp MB1    &mt MB5 MB3 
+                &mkp MB1    &mkp MB3 
             >;
         };
 
