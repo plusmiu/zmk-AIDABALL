@@ -15,14 +15,14 @@
 };
 
 / {
-    //behaviors {
-    //    lt_mkp: lt_mkp {
-    //        compatible = "zmk,behavior-hold-tap";
-    //        label = "LT_MB4";
-    //        bindings = <&mo>, <&mkp>;
-    //        tapping-term-ms = <200>;
-    //    };
-    //};
+    behaviors {
+        lt_mkp: lt_mkp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_MB4";
+            bindings = <&mo>, <&mkp>;
+            tapping-term-ms = <200>;
+        };
+    };
     
     keymap {
         compatible = "zmk,keymap";
