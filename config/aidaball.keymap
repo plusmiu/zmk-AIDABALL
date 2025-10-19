@@ -16,10 +16,10 @@
 
 / {
     //behaviors {
-    //    mb4_tap: mb4_tap {
+    //    lt_mkp: lt_mkp {
     //        compatible = "zmk,behavior-hold-tap";
-    //        label = "MB4_TAP";
-    //        bindings = <&mo 1>, <&mkp MB4>;
+    //        label = "LT_MB4";
+    //        bindings = <&mo>, <&mkp>;
     //        tapping-term-ms = <200>;
     //    };
     //};
@@ -29,7 +29,7 @@
 
         default_layer {
             bindings = <
-                &lt 1 LSHIFT    &mkp MB2
+                &lt_mkp 1 MB4   &mkp MB2
                 &mkp MB1        &mkp MB3 
             >;
         };
