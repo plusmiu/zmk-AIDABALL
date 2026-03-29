@@ -31,8 +31,8 @@
 
         default_layer {
             bindings = <
-&mkp LCLK         &mkp RCLK
-&kp INT_MUHENKAN  &kp INT_HENKAN
+&mkp LCLK   &mkp RCLK
+&kp K_COPY  &kp K_PASTE
             >;
         };
 
